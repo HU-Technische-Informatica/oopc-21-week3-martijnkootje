@@ -1,0 +1,22 @@
+class vehicle { . . . };
+class car : public vehicle { . . . };
+class train : public vehicle { . . . };
+class intercity : public train { . . . };
+void travel( vehicle & v );
+void ovchipkaart( train & t );
+void file( car & c );
+car batmobiel;
+intercity utr_amst;
+train ICE;
+file( batmobiel ); // 1 = goed
+ovchipkaart( utr_amst ); // 2 = goed
+file( ICE ) // 3 = fout, ice is een trein, geen auto
+ovchipkaart( batmobiel ) // 4 = fout, batmobile is geen trein
+travel( utr_amst ) // 5 = goed
+travel( batmobiel ) // 6 = goed
+intercity & ref7 = utr_amst; // 7 = goed
+car & ref8 = utr_amst; // 8 = fout, je kan geen auto in een trein veranderen
+train & ref9 = utr_amst; // 9 goed
+train & ref10 = batmobiel; // 10 = fout, auto en trein kan niet
+intercity & ref11 = batmobiel; // 11 = fout, intercity en auto
+intercity & ref12 = ICE; // 12 = goed
