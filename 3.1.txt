@@ -1,9 +1,9 @@
 a = klas
 b = lijst(array) van 3 chars
-c = vector<student>
+c = student
 d = string
 e = int
-f = vector<mark>
+f = mark
 g = course
 h = uint8_t
 g = vector<char>
