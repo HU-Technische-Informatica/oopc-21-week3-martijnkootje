@@ -1,0 +1,13 @@
+RECTANGLE_HPP	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^#define RECTANGLE_HPP$/;"	macro	line:2
+rectangle	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^class rectangle{$/;"	class	line:6
+w	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^   hwlib::window & w;$/;"	member	line:8	class:rectangle	access:private
+start_x	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^	int start_x;$/;"	member	line:9	class:rectangle	access:private
+start_y	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^	int start_y;$/;"	member	line:10	class:rectangle	access:private
+end_x	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^	int end_x;$/;"	member	line:11	class:rectangle	access:private
+end_y	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^	int end_y;$/;"	member	line:12	class:rectangle	access:private
+get_start_x	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		int get_start_x(){ return start_x; }$/;"	function	line:14	class:rectangle	access:public	signature:()	returns:int 
+get_start_y	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		int get_start_y(){ return start_y; }$/;"	function	line:15	class:rectangle	access:public	signature:()	returns:int 
+get_end_x	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		int get_end_x(){ return end_x; }$/;"	function	line:16	class:rectangle	access:public	signature:()	returns:int 
+get_end_y	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		int get_end_y(){ return end_y; }$/;"	function	line:17	class:rectangle	access:public	signature:()	returns:int 
+rectangle	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		rectangle(hwlib::window & w, int start_X, int start_Y, int end_X, int end_Y) : w(w){$/;"	function	line:19	class:rectangle	access:public	signature:(hwlib::window & w, int start_X, int start_Y, int end_X, int end_Y)
+print	C:\MinGW\cppPlugins\v1oopc-examples\12-10-bounce\rectangle.hpp	/^		virtual void print();$/;"	prototype	line:25	class:rectangle	access:public	implementation:virtual	signature:()	returns:virtual void 
